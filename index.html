@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Rock, Paper, Scissors</h1>
+	<div class="container-1">
+		<div id="game">
+			<img src="images/rock.png" id="rock" onclick="startGame(this)">
+			<img src="images/paperr.png" id="paper" onclick="startGame(this)">
+			<img src="images/scissorss.png" id="scissors" onclick="startGame(this)">
+		</div>
+		<table>
+			<tr>
+				<th>Wins</th>
+				<th>Draws</th>
+				<th>Losses</th>
+			</tr>
+			<tr>
+				<td id="wins">0</td>
+				<td id="draws">0</td>
+				<td id="losses">0</td>
+			</tr>
+		</table>
+	</div>
+	<button onclick="restart()">Play Again!</button>
+	<script type="text/javascript" src="function.js"></script>
+</body>
+</html>
